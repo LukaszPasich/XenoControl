@@ -48,6 +48,7 @@ table {
 	border-spacing: 0;
 }
 
+
 /* ----- CSS for website starts here ----- */
 
 
@@ -121,7 +122,8 @@ header {
 .para_telephone {
 	font-size: 22px;
 	font-weight: 900;
-	line-height: 32px;
+    line-height: 32px;
+    clear: both;
 }
 
 a.link_telephone:link, active, visited  {
@@ -131,3 +133,26 @@ a.link_telephone:link, active, visited  {
 a.link_telephone, .header_right_bottom:hover {
 	background: #d1deee;
 }
+
+/* ----- Navbar ----- */
+nav {
+    width: 1200px;
+    margin: auto;
+    background-color: yellow;
+    min-height: 100px;
+    clear: both;
+    margin-top: 5px;
+}
+
+nav span {
+    background-color: red;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px;
+    float: left;
+    font-size: 21px;
+}
+
+
