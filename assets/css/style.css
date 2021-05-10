@@ -54,6 +54,80 @@ table {
 /* ----- General ----- */
 
 body {
-	background-image: url("../images/background.jpg");
+    background-image: url("../images/background.jpg");
+    font-family: verdana;
 }
 
+/* ----- Header ----- */
+
+header {
+	background-image: url("../images/header.jpg");
+	height: 200px;
+	width: 1200px;
+	margin: auto;
+}
+
+.header_left {
+	float: left;
+	width:50%;
+	background: none;
+}
+
+.header_right {
+	float: right;
+	width:50%;
+	background: none;
+}
+
+.search {
+	float: right;
+	color: white;
+	padding-top: 46px;
+}
+
+.para_login {
+	float: right;
+	color: white;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-left: 30px;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.header_right_top {
+	float: right;
+	width: 50%;
+	background: none;
+}
+
+.header_right_bottom {
+	clear: both;
+	width: 45%;
+	background: #afcaea;
+	text-align: center;
+	margin: auto;
+	margin-top: 105px;
+	margin-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #13161c;
+}
+
+.para_problem {
+	font-size: 14px;
+}
+
+.para_telephone {
+	font-size: 22px;
+	font-weight: 900;
+	line-height: 32px;
+}
+
+a.link_telephone:link, active, visited  {
+	text-decoration: none;
+}
+
+a.link_telephone, .header_right_bottom:hover {
+	background: #d1deee;
+}
