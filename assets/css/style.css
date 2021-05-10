@@ -139,20 +139,40 @@ nav {
     width: 1200px;
     margin: auto;
     background-color: yellow;
-    min-height: 100px;
+    min-height: 350px;
     clear: both;
     margin-top: 5px;
+    background-color: teal;
 }
 
 nav span {
-    background-color: red;
+    background-color: #244169;
     width: 200px;
-    height: 20px;
+    height: 11px;
     text-align: center;
     margin: 0px;
-    padding: 10px 0px;
+    padding-top: 10px;
+    padding-bottom: 20px; 
     float: left;
     font-size: 21px;
+    font-weight: 500;
+    color: #AECAEA;
 }
 
+.nav-about-img {
+    background-image: url("../images/navigation-about-full.jpg");
+    height: 280px;
+    margin-top: 10px;
+}
 
+nav span:hover {
+    background-color: #2D5183;
+}
+
+nav span:hover > .nav-about-img {
+    background-image: url("../images/navigation-about-on-full.jpg");
+}
+
+.nav-about-img:hover {
+    background-image: url("../images/navigation-about-on-full.jpg");
+}
