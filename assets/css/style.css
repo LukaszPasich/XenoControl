@@ -269,9 +269,15 @@ nav span:hover > .nav-contact-img {
 }
  em {
  	font-weight: 900;
- 	font-size: 28px;
     text-decoration: underline;
-    line-height: 42px; 
+ }
+
+ .em_home {
+    font-size: 28px;
+ }
+
+ .em_youshould {
+     line-height: 36px;
  }
 
 a.link_contactus, .para_contactus:hover {
@@ -359,6 +365,151 @@ h1 {
 	padding-left: 120px;
 	padding-right: 120px;
 	text-transform: none;
+}
+
+/* ----- Div (Services / Services) ----- */
+.sixhund_full {
+	clear: both;
+	width: 1200px;
+	height: 600px;
+	margin: auto;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+
+.text_right {
+	float: right;
+	width: 43%;
+	padding-right: 40px;
+	padding-top: 40px;
+}
+
+.text_left {
+	float: left;
+	width: 43%;
+	padding-left: 40px;
+	padding-top: 40px;
+}
+
+h2 {
+	color: white;	
+	font-family: sans-serif;
+	font-weight: 300;
+	line-height: 40px;
+	font-size: 36px;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+.para_one {
+	color: white;	
+	font-family: sans-serif;
+	font-weight: 100;
+	line-height: 24px;
+	font-size: 16px;
+	text-align: left;
+	padding-top: 20px;
+}
+
+
+.em_what {
+	color: #c09f3c;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.services_contactus {
+	font-weight: 900;
+	font-size: 24px;
+	text-decoration: underline;
+	color: #13161c;
+	background-color: #afcaea;
+	padding: 15px;
+	margin: auto;
+	text-transform: uppercase;
+	font-family: verdana, sans-serif;
+	width: 350px;
+	margin-top: 50px;
+	text-align: center;
+	display: block;
+}
+
+.services_contactus:hover {
+	background-color: #d1deee;
+}
+
+/* ----- Div (Services / Testimonials) ----- */
+.test_one {
+	height: 150px;
+	width: 1200px;
+	margin: auto;
+	background-color: #473C47;
+	color: #13161c;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.test_one:hover {
+    opacity: 90%;
+}
+
+.test_one_left {
+	float: left;
+	width: 750px;
+	padding-left: 100px;
+	color: #13161c;
+}
+
+.test_one_right {
+	float: right;
+	width: 250px;
+	padding-top: 20px;
+	padding-right: 100px;
+	color: #13161c;
+}
+
+.para_test_one {
+	font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.para_test_two {
+	padding-top: 15px;
+	font-size: 16px;
+	line-height: 21px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.para_test_three {
+	padding-top: 10px;
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 21px;
+    font-style: italic;
+    color: #fff;
+}
+
+.em_Paul_Kelly {
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+.test_two {
+	height: 200px;
+	width: 1200px;
+	margin: auto;
+	background-color: white;
+	opacity: 90%;
+}
+
+.test_two:hover {
+	opacity: 100%;
 }
 
 /* ----- Div (Logos) ----- */
