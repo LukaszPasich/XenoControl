@@ -159,10 +159,13 @@ nav span {
     color: #AECAEA;
 }
 
-.nav-about-img {
-    background-image: url("../images/navigation-about-full.jpg");
+.nav-img {
     height: 280px;
     margin-top: 10px;
+}
+
+.nav-about-img {
+    background-image: url("../images/navigation-about-full.jpg");
 }
 
 nav span:hover {
@@ -176,3 +179,66 @@ nav span:hover > .nav-about-img {
 .nav-about-img:hover {
     background-image: url("../images/navigation-about-on-full.jpg");
 }
+
+.nav-services-img {
+    background-image: url("../images/navigation-services-full.jpg");
+}
+
+.nav-services-img:hover {
+    background-image: url("../images/navigation-services-on-full.jpg");
+}
+
+nav span:hover > .nav-services-img {
+    background-image: url("../images/navigation-services-on-full.jpg");
+}
+
+.nav-pests-img {
+    background-image: url("../images/navigation-pests-full.jpg");
+}
+
+.nav-pests-img:hover {
+    background-image: url("../images/navigation-pests-on-full.jpg");
+}
+
+nav span:hover > .nav-pests-img {
+    background-image: url("../images/navigation-pests-on-full.jpg");
+}
+
+.nav-testimonials-img {
+    background-image: url("../images/navigation-testimonials-full.jpg");
+}
+
+.nav-testimonials-img:hover {
+    background-image: url("../images/navigation-testimonials-on-full.jpg");
+}
+
+nav span:hover > .nav-testimonials-img {
+    background-image: url("../images/navigation-testimonials-on-full.jpg");
+}
+
+.nav-team-img {
+    background-image: url("../images/navigation-team-full.jpg");
+}
+
+.nav-team-img:hover {
+    background-image: url("../images/navigation-team-on-full.jpg");
+}
+
+nav span:hover > .nav-team-img {
+    background-image: url("../images/navigation-team-on-full.jpg");
+}
+
+.nav-contact-img {
+    background-image: url("../images/navigation-contact-full.jpg");
+}
+
+.nav-contact-img:hover {
+    background-image: url("../images/navigation-contact-on-full.jpg");
+}
+
+nav span:hover > .nav-contact-img {
+    background-image: url("../images/navigation-contact-on-full.jpg");
+}
+
+
+
