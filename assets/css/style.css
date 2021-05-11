@@ -284,7 +284,8 @@ a.link_contactus, .para_contactus:hover {
 	width: 1200px;
 	height: 200px;
 	margin: auto;
-	background-image: url("../images/logos.jpg");
+    background-image: url("../images/logos.jpg");
+    margin-bottom: 5px;
 }
 
 .para_logos {
@@ -294,4 +295,77 @@ a.link_contactus, .para_contactus:hover {
 	font-weight: 100;
 	padding-top: 30px;
 	color: #bbbbbb;
+}
+
+/* ----- Footer ----- */
+footer {
+	width: 1200px;
+    height: 300px;
+	margin: auto;
+	background-color: #78736e;
+	font-family: sans-serif;
+}
+
+.column_one {
+	width: 40%;
+	margin: auto;
+	float: left;
+	font-weight: 100;
+	color: white;
+	font-size: 13px;
+	background: none;
+	
+	
+}
+
+.para_column-one {
+	padding-left: 50px;
+	padding-right: 150px;
+	line-height: 17px;
+}
+
+.column_two {
+	width: 12%;
+	margin: auto;
+	float: left;
+	font-weight: 100;
+	color: white;
+	font-size: 13px;
+	background: none;
+	padding-top: 50px;
+	line-height: 22px;
+}
+
+.link_footer:link, .link_footer:active, .link_footer:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.column_three {
+	width: 16%;
+	margin: auto;
+	float: left;
+	font-weight: 100;
+	color: white;
+	font-size: 13px;
+	background: none;
+	padding-top: 50px;
+	line-height: 22px;
+}
+
+.column_four {
+	width: 22%;
+	margin: auto;
+	float: left;
+	font-weight: 100;
+	color: white;
+	font-size: 13px;
+	background: none;
+	padding-top: 50px;
+}
+
+.img_social {
+	padding: 4px;
+	padding-top: 15px;
+	width: 35px;
 }
