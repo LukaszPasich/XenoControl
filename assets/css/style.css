@@ -512,6 +512,138 @@ h2 {
 	opacity: 100%;
 }
 
+/* ----- Div (Testimonials / Testimonial 1) ----- */
+.testim_one {
+    clear: both;
+	width: 1200px;
+	height: 600px;
+	margin: auto;
+	background-image: url("../images/testimonials_rebecca.jpg"); 
+	padding-bottom: 0px;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+
+.testimonial_one {
+	float: right;
+	width: 34%;
+	padding-left: 40px;
+	padding-right: 60px;
+	padding-top: 100px;
+}
+
+h4 {
+	color: #13161c;	
+	font-family: sans-serif;
+	font-weight: 900;
+	line-height: 24px;
+	font-size: 36px;
+	text-align: center;
+}
+
+.para_test_one {
+	color: #13161c;	
+	font-family: sans-serif;
+	font-weight: 400;
+	line-height: 28px;
+	font-size: 19px;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
+.para_rebecca {
+	color: #13161c;	
+	font-family: sans-serif;
+	font-weight: 200;
+	line-height: 28px;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 40px;
+	font-style: italic;
+}
+
+.em_rebecca {
+	font-weight: 900;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.img_rebecca {
+	width: 250px;
+	margin: auto;
+	padding-top: 10px;
+	background-color: none;
+	display: block;
+	text-align: center;
+}
+
+/* ----- Div (Testimonials / Testimonial 2) ----- */
+.testim_two {
+	clear: both;
+	width: 1200px;
+	height: 600px;
+	margin: auto;
+	background-image: url("../images/testimonials_vasquez.jpg"); 
+	padding-bottom: 0px;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+
+.testimonial_two {
+	float: left;
+	width: 66%;
+	padding-left: 80px;
+	padding-right: 60px;
+	padding-top: 80px;
+}
+
+h3 {
+	color: white;	
+	font-family: sans-serif;
+	font-weight: 900;
+	line-height: 24px;
+	font-size: 36px;
+	text-align: center;
+}
+
+.para_test_two {
+	color: white;	
+	font-family: sans-serif;
+	font-weight: 400;
+	line-height: 28px;
+	font-size: 19px;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
+.para_vasquez {
+	color: white;	
+	font-family: sans-serif;
+	font-weight: 200;
+	line-height: 28px;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 40px;
+	font-style: italic;
+}
+
+.em_rebecca {
+	font-weight: 900;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.img_rebecca {
+	width: 250px;
+	margin: auto;
+	padding-top: 10px;
+	background-color: none;
+	display: block;
+	text-align: center;
+}
+
 /* ----- Div (Logos) ----- */
 .logos {
 	clear: both;
