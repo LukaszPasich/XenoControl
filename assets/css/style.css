@@ -296,6 +296,8 @@ nav span:hover > .nav-contact-img {
 
  .em_youshould {
      line-height: 36px;
+     font-size: 30px;
+     font-weight: 900px;
  }
 
 a.link_contactus, .para_contactus:hover {
@@ -746,7 +748,7 @@ h3 {
 	transition-delay: 100ms;
 }
 
-/* ----- Div (Alien Life) ----- */
+/* ----- Div (Pests / Alien Life) ----- */
 h5 {
 	color: white;	
 	font-family: sans-serif;
@@ -767,6 +769,27 @@ h5 {
     font-weight: 100;
     line-height: 27px;
     opacity: 90%;
+}
+
+/* ----- Div (Pests / Contactus) ----- */
+.pests_contactus {
+	font-weight: 900;
+	font-size: 24px;
+	text-decoration: underline;
+	color: #13161c;
+	background-color: #afcaea;
+	padding: 15px;
+	margin: auto;
+	text-transform: uppercase;
+	font-family: verdana, sans-serif;
+	width: 350px;
+	margin-top: 50px;
+	text-align: center;
+	display: block;
+}
+
+.pests_contactus:hover {
+	background-color: #d1deee;
 }
 
 /* ----- Div (Logos) ----- */
