@@ -644,6 +644,90 @@ h3 {
 	text-align: center;
 }
 
+/* ----- Div (Nav Pests) ----- */
+#nav_pest {
+	clear: both;
+	width: 1200px;
+	height: 245px;
+	margin: auto;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	background-color: #13161c;
+}
+
+.img_queen {
+	float: left;
+	background-image: url("../images/navpest-queen-off.jpg");
+	width: 200px;
+	height: 250px;
+}
+
+.img_egg {
+	float: left;
+	background-image: url("../images/navpest-egg-off.jpg");
+	width: 200px;
+	height: 250px;
+}
+
+.img_facehugger {
+	float: left;
+	background-image: url("../images/navpest-facehugger-off.jpg");
+	width: 200px;
+	height: 250px;
+}
+
+.img_chestburster {
+	float: left;
+	background-image: url("../images/navpest-chestburster-off.jpg");
+	width: 200px;
+	height: 250px;
+}
+
+.img_drone {
+	float: left;
+	background-image: url("../images/navpest-drone-off.jpg");
+	width: 200px;
+	height: 250px;
+}
+
+.img_runner {
+	float: left;
+	background-image: url("../images/navpest-runner-off.jpg");
+	width: 200px;
+	height: 250px;
+}
+
+.img_queen:hover {
+	background-image: url("../images/navpest-queen-on.jpg");
+	transition-delay: 100ms;
+}
+
+.img_egg:hover {
+	background-image: url("../images/navpest-egg-on.jpg");
+	transition-delay: 100ms;
+}
+
+
+.img_facehugger:hover {
+	background-image: url("../images/navpest-facehugger-on.jpg");
+	transition-delay: 100ms;
+}
+
+.img_chestburster:hover {
+	background-image: url("../images/navpest-chestburster-on.jpg");
+	transition-delay: 100ms;
+}
+
+.img_drone:hover {
+	background-image: url("../images/navpest-drone-on.jpg");
+	transition-delay: 100ms;
+}
+
+.img_runner:hover {
+	background-image: url("../images/navpest-runner-on.jpg");
+	transition-delay: 100ms;
+}
+
 /* ----- Div (Logos) ----- */
 .logos {
 	clear: both;
