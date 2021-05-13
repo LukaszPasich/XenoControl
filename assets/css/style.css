@@ -776,14 +776,14 @@ h5 {
 	width: 1200px;
 	height: 160px;
 	background-color: #13161c;
-	margin: auto;
+    margin: auto;
 }
 
 .nav_personnel {
 	float: left;
-	background-image: url("../images/team-nav-personnel-in.jpg");
+	background-image: url("../images/team-nav-personnel.jpg");
 	width: 300px;
-	height: 160px;
+    height: 160px;
 }
 
 .nav_equipment {
@@ -819,11 +819,11 @@ h5 {
 	background-image: url("../images/team-nav-crafts-on.jpg");
 }
 
-/* ----- Div (Team / Top row, bottom row) ----- */
+/* ----- Div (Team / Personnel) ----- */
 .team_row {
 	width: 1200px;
 	height: 850px;
-	margin: auto;
+    margin: auto;
 }
 
 .team_one {
@@ -848,7 +848,6 @@ h5 {
 	text-transform: uppercase;
 	font-weight: 500;
 	line-height: 24px;
-	
 }
 
 .team_rank {
@@ -860,7 +859,6 @@ h5 {
 	line-height: 24px;
 	font-weight: 100;
 	letter-spacing: 1px;
-	
 }
 
 .team_bio {
@@ -872,6 +870,66 @@ h5 {
 	font-size: 16px;
 	line-height: 21px;
 	font-weight: 100;
+}
+
+/* ----- Div (Team / Equipment) ----- */
+.equipment_row {
+	width: 1200px;
+	height: 1690px;
+    margin: auto;
+}
+
+.equipment_one {
+	float: left;
+	width: 600px;
+	height: 550px;
+}
+
+.equipment_one_nofloat {
+	clear: both;
+	width: 600px;
+	height: 550px;
+}
+
+.equipment_one_large {
+	float: left;
+	width: 600px;
+	height: 1100px;
+}
+
+.equipment_info {
+	width: 600px;
+	height: 250px;
+	background-color: #13161c;
+	margin-top: -3px;
+}
+
+.equipment_name {
+	color: white;
+	font-family: sans-serif;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.equipment_bio {
+	color: white;
+	font-family: sans-serif;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 100;
+}
+
+em.equipment {
+    color: #c09f3c;
+    font-weight: 500;
+    text-decoration: none;
 }
 
 /* ----- Div (Pests / Contactus) ----- */
@@ -931,8 +989,6 @@ footer {
 	color: white;
 	font-size: 13px;
 	background: none;
-	
-	
 }
 
 .para_column-one {
