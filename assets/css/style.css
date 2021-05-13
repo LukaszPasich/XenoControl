@@ -771,6 +771,109 @@ h5 {
     opacity: 90%;
 }
 
+/* ----- Div (Nav / Team) ----- */
+.nav_two {
+	width: 1200px;
+	height: 160px;
+	background-color: #13161c;
+	margin: auto;
+}
+
+.nav_personnel {
+	float: left;
+	background-image: url("../images/team-nav-personnel-in.jpg");
+	width: 300px;
+	height: 160px;
+}
+
+.nav_equipment {
+	float: left;
+	background-image: url("../images/team-nav-equipment.jpg");
+	width: 300px;
+	height: 160px;
+}
+
+.nav_heavy {
+	float: left;
+	background-image: url("../images/team-nav-heavy.jpg");
+	width: 300px;
+	height: 160px;
+}
+
+.nav_crafts {
+	float: left;
+	background-image: url("../images/team-nav-crafts.jpg");
+	width: 300px;
+	height: 160px;
+}
+
+.nav_equipment:hover {
+	background-image: url("../images/team-nav-equipment-on.jpg");
+}
+
+.nav_heavy:hover {
+	background-image: url("../images/team-nav-heavy-on.jpg");
+}
+
+.nav_crafts:hover {
+	background-image: url("../images/team-nav-crafts-on.jpg");
+}
+
+/* ----- Div (Team / Top row, bottom row) ----- */
+.team_row {
+	width: 1200px;
+	height: 850px;
+	margin: auto;
+}
+
+.team_one {
+	float: left;
+	width: 400px;
+	height: 450px;
+}
+
+.team_info {
+	width: 400px;
+	height: 400px;
+	background-color: #13161c;
+	margin-top: -3px;
+}
+
+.team_name {
+	color: white;
+	font-family: sans-serif;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 24px;
+	
+}
+
+.team_rank {
+	color: #c09f3c;
+	font-family: sans-serif;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	
+}
+
+.team_bio {
+	color: white;
+	font-family: sans-serif;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 100;
+}
+
 /* ----- Div (Pests / Contactus) ----- */
 .pests_contactus {
 	font-weight: 900;
