@@ -981,6 +981,57 @@ em.equipment {
 	background-color: #d1deee;
 }
 
+/* ----- Div (Team / Heavy) ----- */
+.heavy_row {
+	width: 1200px;
+	margin: auto;
+}
+
+.heavy_info {
+	float: right;
+	width: 400px;
+	height: 600px;
+	background-color: #13161c;
+	margin-top: 0px;
+}
+
+.heavy_info_sentrygun {
+	float: left;
+	width: 400px;
+	height: 600px;
+	background-color: #13161c;
+	margin-top: 0px;
+}
+
+.heavy_name {
+	color: white;
+	font-family: sans-serif;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 24px;	
+}
+
+.heavy_bio {
+	color: white;
+	font-family: sans-serif;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 100;
+}
+
+.em_heavy {
+    color: #c09f3c;
+    font-weight: 500;
+    text-decoration: none;
+}
+
 /* ----- Div (Logos) ----- */
 .logos {
 	clear: both;
