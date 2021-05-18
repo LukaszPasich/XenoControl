@@ -774,8 +774,7 @@ h5 {
 /* ----- Div (Nav / Team) ----- */
 .nav_two {
 	width: 1200px;
-	height: 160px;
-	background-color: #13161c;
+	height: 150px;
     margin: auto;
 }
 
@@ -807,6 +806,10 @@ h5 {
 	height: 160px;
 }
 
+.nav_personnel:hover {
+	background-image: url("../images/team-nav-personnel-on.jpg");
+}
+
 .nav_equipment:hover {
 	background-image: url("../images/team-nav-equipment-on.jpg");
 }
@@ -817,6 +820,31 @@ h5 {
 
 .nav_crafts:hover {
 	background-image: url("../images/team-nav-crafts-on.jpg");
+}
+
+.nav_personnel_in,
+.nav_equipment_in,
+.nav_heavy_in,
+.nav_crafts_in {
+    float: left;
+	width: 300px;
+    height: 160px;
+}
+
+.nav_personnel_in {
+    background-image: url("../images/team-nav-personnel-in.jpg");
+}
+
+.nav_equipment_in {
+	background-image: url("../images/team-nav-equipment-in.jpg");
+}
+
+.nav_heavy_in {
+	background-image: url("../images/team-nav-heavy-in.jpg");
+}
+
+.nav_crafts_in {
+	background-image: url("../images/team-nav-crafts-in.jpg");
 }
 
 /* ----- Div (Team / Personnel) ----- */
