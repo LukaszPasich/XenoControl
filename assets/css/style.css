@@ -1032,6 +1032,74 @@ em.equipment {
     text-decoration: none;
 }
 
+/* ----- Div (Team / Crafts) ----- */
+.crafts_row,
+.crafts_row2 {
+	width: 1200px;
+	margin: auto;
+}
+
+.crafts_row {
+	height: 755px;
+}
+
+.crafts_row2 {
+	height: 700px;
+}
+
+.crafts_info {
+	float: left;
+	width: 400px;
+	height: 700px;
+	background-color: #13161c;
+	margin-top: 0px;
+}
+
+.crafts_info_cheyenne {
+	float: right;
+	width: 400px;
+	height: 700px;
+	background-color: #13161c;
+	margin-top: 0px;
+}
+
+.crafts_name {
+	color: white;
+	font-family: sans-serif;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 24px;	
+}
+
+.crafts_bio {
+	color: white;
+	font-family: sans-serif;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 100;
+}
+
+.em_crafts {
+    color: #c09f3c;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.class {
+	color: white;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 100;
+	font-style: italic;
+}
+
 /* ----- Div (Logos) ----- */
 .logos {
 	clear: both;
