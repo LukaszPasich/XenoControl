@@ -1303,7 +1303,31 @@ h6 {
 }
 
 /* ----- Div ( Legal ) ----- */
+.legal {
+	width: 1200px;
+	margin: auto;
+	background-color: #13161c;
+	padding-top: 50px;
+	font-family: sans-serif;
+	font-size: 15px;	
+}
 
+h7 {
+	padding-left: 70px;
+	line-height: 26px;
+	font-size: 16px;
+	color: white;	
+}
+
+.para_legal {
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 25px;
+	font-weight: 100;
+	font-size: 14px;
+	line-height: 19px;
+	color: #aaaaaa;
+}
 
 /* ----- Div (Logos) ----- */
 .logos {
